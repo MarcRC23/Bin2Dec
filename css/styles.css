@@ -106,24 +106,55 @@ body {
 
 /* Otras clases */
 
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.botones {
+    width: 48%;
+}
+
+#resultado {
+    text-align: center;
+    color: red;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    height: 10vh;
+}
+
+#procesar {
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
-.green {
-    color: rgb(172, 255, 47);
+.orange {
+    color: orange;
     background-color: rgba(88, 165, 88, 0.267);
 }
 
-#number1 {
+#mr1 {
     color: red;
     font-size: 15px;
 }
 
-#number2 {
+#mr2 {
     color: green;
     font-size: 15px;
+}
+
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: green;
 }
 
 .color-submit {
@@ -151,27 +182,8 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.botones {
-    width: 48%;
-}
-
-#resultado {
-    text-align: center;
-    color: red;
-}
-
-footer {
+p {
     color: white;
-    text-align: center;
-    height: 10vh;
-}
-
-#procesando {
-    font-size: 20px;
 }
 
 
